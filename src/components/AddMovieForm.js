@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
-const AddMovie = (props) => {
+const AddMovieForm = (props) => {
 
     const { setMovies } = props;
     const { push } = useHistory();
@@ -112,4 +112,4 @@ const AddMovie = (props) => {
     )
 }
 
-export default AddMovie;
+export default AddMovieForm;
