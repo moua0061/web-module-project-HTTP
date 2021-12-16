@@ -82,7 +82,8 @@ const EditMovieForm = (props) => {
 				</div>
 			</form>
 		</div>
-	</div>);
+	</div>
+	);
 }
 
 export default EditMovieForm;
